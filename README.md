@@ -7,20 +7,19 @@ This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedag
 ## Learning Goals
 - Practice Layout Techniques
 - Have DRY, readable CSS code using CSS selectors with classes and ids
-- Add Custom Styling
+- Add styles
 
 ## Baseline
-Using CSS, construct the layout of the site according to the following wireframes attached to the project:
-- [Wireframe for mobile (smaller devices)](wireframes/mobile.png)
+Using CSS, construct the layout of the site according to the following wireframe attached to the project:
 - [Wireframe for desktop (large devices)](wireframes/desktop.png)
 
-These images are wireframes. Wireframes are used to convey a site's layout design. It highlights the layout without focusing on any of the design specifics (like color, typography, copy, etc).
+The above image is a wireframe. Wireframes are used to convey a site's layout design. It highlights the layout without focusing on any of the design specifics (like color, typography, copy, etc).
 
 Wireframes are important tools to help designers and developers communicate. Wireframes can be either high-fidelity (which show a goal for what the site should exactly look like with all colors, typography) or low-fidelity (which show a rough estimation of what the site should look like, and are often filled with placeholder boxes, and can often be drawn on paper). Our provided wireframes are closer to low-fidelity.
 
 We've provided wireframes for both desktop view and mobile view.
 
-Your goal is to create styles for Startrly's website so that its layout emulates the given wireframes as closely as possible, and also provide custom styles.
+Your goal is to create styles for Startrly's website so that its layout emulates the given wireframes as closely as possible, and also provide styles.
 
 **You can make only make limited changes to the HTML**
 - You cannot move any content around in the HTML
@@ -35,21 +34,21 @@ Your goal is to create styles for Startrly's website so that its layout emulates
 - Use CSS to rearrange the layout to match the drawing as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
   - CSS grid
   - Flexbox
-- Add custom styling
+- Add styling
   - At least one google font
   - At least one pseudo selector (like hover)
   - Background color on one section
 - Identify repeated styles and use CSS selectors and class/id names to organize and DRY your code.
 
-
-
 ### Optional Enhancements
 
 - Make the top nav fixed, so that the nav bar is stationary as the user scrolls through the site
-- Add [parallax scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp) to the hero banner
-- Animate the h1 element to fade in on page load
-- Create a new page for one of the articles
+- Create a new page for one of the pages
   - Create a wireframe for the layout design
   - Create the content and structure with HTML, in new HTML page
   - Style the new HTML page to match your wireframe
 - Replace the copy and images on the site, while keeping the required layout. This is the only exception for being able to make large changes to the provided HTML
+- Make your website responsive! Check your site against this recommended wireframe for mobile/responsive design
+  - [Wireframe for mobile (smaller devices)](wireframes/mobile.png)
+- Add [parallax scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp) to the hero banner
+- Animate the h1 element to fade in on page load
