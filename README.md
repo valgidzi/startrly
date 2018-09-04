@@ -1,11 +1,16 @@
 # Startrly
 
-A team of ambitious and passionate folks have assembled and they're creating a new product called Startrly. Startrly is a new and unique solution for some problem, and it's going to disrupt some industry. They've hired you to make a new front-page for their product's website. They have a good idea for what they want in their front page in terms of layout and content, so they've provided wireframes and the HTML for the front page. However, in terms of literal styles, colors, and visual design choices, they've left that freedom to you.
+## At a Glance
 
-This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md) project.
+- Individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md#stage-2) project
+- Due **end of day Friday**
+
+## Introduction
+
+A team of ambitious and passionate folks have assembled and they're creating a new product called Startrly. Startrly is a new and unique solution for some problem, and it's going to disrupt some industry. They've hired you to make a new front-page for their product's website. They have a good idea for what they want in their front page in terms of layout and content, so they've provided wireframes and the HTML for the front page. However, in terms of literal styles, colors, and visual design choices... they've left that freedom to _you_.
 
 ## Learning Goals
-- Practice Layout Techniques
+- Practice layout techniques
 - Have DRY, readable CSS code using CSS selectors with classes and ids
 - Add styles
 
@@ -17,7 +22,7 @@ The above image is a wireframe. Wireframes are used to convey a site's layout de
 
 Wireframes are important tools to help designers and developers communicate. Wireframes can be either high-fidelity (which show a goal for what the site should exactly look like with all colors, typography) or low-fidelity (which show a rough estimation of what the site should look like, and are often filled with placeholder boxes, and can often be drawn on paper). Our provided wireframes are closer to low-fidelity.
 
-We've provided wireframes for both desktop view and mobile view.
+We've provided wireframes for desktop view (and the mobile view for the optional enhancements).
 
 Your goal is to create styles for Startrly's website so that its layout emulates the given wireframes as closely as possible, and also provide styles.
 
@@ -30,17 +35,23 @@ Your goal is to create styles for Startrly's website so that its layout emulates
 
 - Add normalize.css
   - Normalize is a popular collection of CSS rulesets used to render elements more consistently across browsers.
-  - Go to [https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/), click the red download button, copy and paste the code into a new file called 'normalize.css' and link to it as you would with main.css. The link to normalize.css should come before your main.css.
+  - Go to [https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/), click the red download button, copy and paste the code into a new file called `normalize.css` and link to it as you would with `styles.css`. The link to `normalize.css` should come before your `styles.css`
 - Use CSS to rearrange the layout to match the drawing as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
-  - CSS grid
-  - Flexbox
-- Add styling
-  - At least one google font
+  - CSS Grid
+  - flexbox
+- Add styling/theming
+  - At least one font found from [Google Fonts](https://fonts.google.com/)
   - At least one pseudo selector (like hover)
   - Background color on one section
 - Identify repeated styles and use CSS selectors and class/id names to organize and DRY your code.
 
-### Optional Enhancements
+### About Perfection
+
+You are not expected to match the wireframes to perfection in this project. While this given layout is certainly achievable with pure CSS, it is less important to achieve every style than it is to practice CSS Grid and flexbox and achieving a "close enough" layout.
+
+You will be evaluated on hitting the learning goals of working with CSS layout techniques, and not evaluated on perfectly matching the given wireframe.
+
+## Optional Enhancements
 
 - Make the top nav fixed, so that the nav bar is stationary as the user scrolls through the site
 - Create a new page for one of the pages
@@ -52,3 +63,6 @@ Your goal is to create styles for Startrly's website so that its layout emulates
   - [Wireframe for mobile (smaller devices)](wireframes/mobile.png)
 - Add [parallax scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp) to the hero banner
 - Animate the h1 element to fade in on page load
+
+## What Instructors Are Looking For
+Check out the [feedback template](feedback.md) which lists the items instructors will be looking for as they evaluate your project.
