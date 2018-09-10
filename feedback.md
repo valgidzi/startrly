@@ -15,5 +15,5 @@ Google font used |
 CSS pseudo selector used |
 Background color |
 DRY CSS code |
-Attractive page layout and appearance |
+Appearance matches the image |
 **Overall** |
