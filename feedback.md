@@ -9,11 +9,11 @@ Answered comprehension questions |
 **Code Requirements** |
 Only limited changes to the HTML |
 Page normalized |
-CSS Grid Used for layout |
+CSS grid used for layout |
 Flexbox used for layout |
-Google Font used |
+Google font used |
 CSS pseudo selector used |
 Background color |
-DRY CSS Code |
+DRY CSS code |
 Attractive page layout and appearance |
 **Overall** |
