@@ -1,0 +1,106 @@
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.top {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  font-family: Helvetica;
+  background-color: lightblue;
+}
+
+.top sub {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.top a[href] {
+  align-content: center;
+  text-decoration: none;
+}
+
+.hline::after {
+  width: 100%;
+  height: 1px;
+  background: black;
+  content: ""
+}
+
+.block {
+  display: grid;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Dancing Script', serif;
+  font-size: 20px;
+}
+
+.block p {
+  text-align: right;
+  margin-right: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+.why ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica;
+  justify-content: space-between;
+}
+
+.why {
+  display: grid;
+}
+
+.team {
+font-family: Helvetica;
+}
+
+.team ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.team span {
+  display: block
+}
+
+.sponsors ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.sponsors {
+  display: grid;
+  font-family: Helvetica;
+}
+
+.footer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Helvetica;
+}
+
+.why strong, p {
+  display: block;
+}
