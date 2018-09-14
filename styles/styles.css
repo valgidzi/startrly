@@ -1,0 +1,145 @@
+/* Use CSS to rearrange the layout to match the drawing as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
+CSS Grid
+flexbox
+Add styling/theming
+At least one font found from Google Fonts
+At least one pseudo selector (like hover)
+Background color on one section
+Identify repeated styles and use CSS selectors and class/id names to organize and DRY your code. */
+
+/* Optional Enhancements
+Make the top nav fixed, so that the nav bar is stationary as the user scrolls through the site
+Create a new page for one of the pages
+Create a wireframe for the layout design
+Create the content and structure with HTML, in new HTML page
+Style the new HTML page to match your wireframe
+Replace the copy and images on the site, while keeping the required layout. This is the only exception for being able to make large changes to the provided HTML
+Make your website responsive! Check your site against this recommended wireframe for mobile/responsive design
+Wireframe for mobile (smaller devices)
+Add parallax scrolling to the hero banner
+Animate the h1 element to fade in on page load */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-size: 100%;
+  background-color: whitesmoke;
+}
+
+div {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul{
+  display: flex;
+  justify-content: row;
+  align-items: space-around;
+}
+
+#heading {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+}
+
+#name {
+  text-align: center;
+  font-size: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#action-button {
+  align-items: center;
+  padding: 15px;
+  border: solid black 2px;
+  border-radius: 15%;
+  color: hotpink;
+
+}
+
+a[id="action-button"]:hover {
+  background-color: lightblue;
+
+}
+
+#why ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h2.why {
+  text-align: center;
+}
+
+img.team {
+  border-radius: 50%;
+  border: solid black 1px;
+  padding: 5px;
+}
+
+.heading  {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+h2.team {
+  text-align: center;
+}
+
+#team {
+  display: flex;
+  flex-direction: row;
+  /*
+  grid-template-rows: 50% 1fr;
+  grid-template-columns: repeat(4, 1fr); */
+}
+
+#sponsors ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  grid-template-rows: 50% 50%;
+}
+
+#last-sponsor {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  /* border: solid black 1px; */
+  align-content: center;
+  /* align-items: center; */
+
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* border: solid black 1px; */
+}
+
+
+
+
+
+
+/*  */
