@@ -39,13 +39,20 @@ nav ul{
 
 #heading {
   display: grid;
-  grid-auto-rows: repeat(3, 1fr);
-
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 #name {
-  text-align: center;
+  grid-column-start: 2;
+  grid-row-start: 1;
   font-size: 5rem;
+}
+
+#sub {
+  grid-row-start: 3;
+  grid-column-start: 2;
+
 }
 
 a {
@@ -63,7 +70,8 @@ blockquote {
 }
 
 #action-button {
-  align-items: center;
+  grid-column-start: 2;
+  grid-row-start: 2;
   padding: 15px;
   border: solid black 2px;
   border-radius: 15%;
