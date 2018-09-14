@@ -38,9 +38,9 @@ nav ul{
 }
 
 #heading {
-  display: flex;
-  justify-content: column;
-  align-items: center;
+  display: grid;
+  grid-auto-rows: repeat(3, 1fr);
+
 }
 
 #name {
